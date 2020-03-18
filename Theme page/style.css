@@ -1,0 +1,149 @@
+body {
+  overflow-x: hidden; /*--right gutter fix--*/
+  font-family: sans-serif;
+  color: #444648;
+
+}
+
+.navbar{
+text-transform: uppercase;
+background-color: #2b2c2d;
+}
+
+.navbar-nav li{
+  padding-right: 20px;
+}
+
+.nav-link{
+  font-size: 1.0rem;
+}
+
+.navbar-brand img{
+  height:4rem; 
+  padding-top: 0rem;
+}
+
+
+.jumbotron{
+  padding:1rem;
+  border-radius: 1rem;
+}
+
+.home-inner{
+  background-image: url(./landing.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top:40%
+
+}
+.caption h3{
+  color:white;
+  font-size:2.4rem;
+  text-transform: uppercase;
+  /* padding-bottom: 0.5rem; */
+  font-family: 'Kelly Slab', cursive;
+
+  /* font-family: 'Titillium Web', sans-serif; */
+/* font-family: 'Girassol', cursive; */
+
+}
+.caption h4{
+  color:white;
+  font-size:2.0rem;
+  padding-bottom: 0.1rem;
+  font-family: 'Courier Prime', monospace;
+
+}
+.caption h5{
+  color:rgb(230, 227, 227);
+  font-size:1.0rem;
+  padding-bottom:0rem;
+  /* font-family: 'Titillium Web', sans-serif; */
+  font-family: 'Kelly Slab', cursive;  
+
+}
+
+.btn{
+  border-width:medium;
+  border-radius:0;
+  text-transform: uppercase;
+  padding:0.5rem 1.1rem;
+  font-size: 0.9rem;
+
+}
+
+h3.heading{
+  text-align:center;
+  font-size:1.9rem;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+  
+}
+
+.padding {
+  padding:2rem 0;
+}
+
+img.portfolio{
+  max-width: 100%;
+
+}
+
+.no-padding .col-md-6{
+  padding:0;
+}
+.card{
+  margin:2rem;
+}
+
+.footer .row{
+  background-color: #505962;
+  padding:1rem 2rem 3rem;
+  color:white;
+
+}
+.footer .img{
+  height:2rem;
+  margin:1.5rem 0;
+  
+}
+
+
+
+/*--- iOS Landing Page Fix --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
