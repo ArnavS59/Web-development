@@ -1,0 +1,42 @@
+html,body{
+    overflow-x: hidden; /*--right gutter fix--*/
+    font-family: sans-serif;
+    color: #444648;
+  
+}
+
+
+
+.navbar-nav li{
+    padding-right:20px;
+}
+.navbar-nav li a:hover{
+    color:linen;
+}
+
+
+.dropdown-menu a:hover{
+    background-color:lightskyblue
+}
+
+
+
+.jumbotron{
+    padding:1rem;
+    border-radius: 1rem;
+  }
+
+
+  .footer .row{
+    background-color: #505962;
+    padding:1rem 2rem 3rem;
+    color:white;
+  
+  }
+
+
+.col-md-4{
+    margin-top:none;
+    padding: 0 0 0 0;
+
+}
