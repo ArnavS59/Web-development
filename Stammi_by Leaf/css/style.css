@@ -1,0 +1,475 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+/* General */
+body {
+    padding-top: 56px;
+}
+.jumbotron {
+    background-color: #171718;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container-fluid{
+  width:95%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    background-attachment: fixed;
+}
+.jumbotron h3 {
+  text-align: center;
+  color: whitesmoke ;
+}
+
+.jumbotron .section-title {
+  font-size: 28px;
+  color: whitesmoke;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  padding-top: 2rem;
+}
+
+/* Begin navbar  */
+a {
+  color: #2dc997;
+}
+
+a:hover, a:active, a:focus {
+  color: #2dca98;
+  outline: none;
+  text-decoration: none;
+}
+.navbar{
+text-transform: uppercase;
+background-color: #2b2c2d;
+}
+
+.navbar-nav li{
+  padding-right: 20px;
+  font-size: 1.0rem;
+color: #13d4b4; 
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.nav-link{
+font-size: 1.0rem;
+color: #13d4b4; 
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.navbar-brand img{
+  height:4rem; 
+  padding-top: 0rem;
+}
+
+.display-3{
+    padding-top: 2.5rem;
+color: #13d4b4;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.display-5{
+    padding-top: 3rem;
+    color: whitesmoke;
+    padding-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .demo a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font : normal 400 20px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+  }
+  .demo a:hover {
+    opacity: .5;
+
+  }
+  
+.section-header{
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-weight: bolder;
+}
+
+.section-header .section-description {
+  text-align: center;
+  padding-bottom: 40px;
+  color: #999;
+}
+
+  #scroll a {
+    padding-top: 60px;
+    padding-bottom: 1rem;
+    
+  }
+  #scroll a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 30px;
+    height: 50px;
+    margin-left: -15px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-sizing: border-box;
+  }
+  #scroll a span::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: sdb10 2s infinite;
+    animation: sdb10 2s infinite;
+    box-sizing: border-box;
+  }
+  @-webkit-keyframes sdb10 {
+    0% {
+      -webkit-transform: translate(0, 0);
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      -webkit-transform: translate(0, 20px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes sdb10 {
+    0% {
+      transform: translate(0, 0);
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      transform: translate(0, 20px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+/* End hero section with navbar */
+
+
+
+/* BEgin Retailers */
+#retailers {
+  background: #fff;
+  background-size: cover;
+  padding: 110px 0 60px 0;
+  margin-bottom: 30px;
+}
+
+#retailers .box {
+  padding: 50px 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  height: 200px;
+  position: relative;
+  background: #fafafa;
+}
+
+#retailers .icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 72px;
+  height: 72px;
+  background: #2dc997;
+}
+
+#retailers .icon a {
+  display: inline-block;
+}
+
+#retailers .icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+#retailers .box:hover .icon {
+  background: #fff;
+  border: 2px solid #2dc997;
+}
+
+#retailers .box:hover .icon i {
+  color: #2dc997;
+}
+
+#retailers .box:hover .icon a {
+  color: #2dc997;
+}
+
+#retailers .title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+} 
+
+
+.form-check-input{
+text-align: left;
+}
+
+/* End retailors  */
+
+
+/* Begin Faq */
+#faq .container{
+  margin-bottom: 4rem;
+}
+.faq-header{
+  text-align: center;
+  text-transform: uppercase;
+  color: #13d4b4;
+  font-size: 36px;
+  font-weight: 700;
+  font-weight: bolder; 
+
+}
+
+.btn-link{
+color:black;
+font-weight: 700;
+font-size: 18px;
+}
+
+.btn-link:focus, .btn-link:hover{
+  color:#13d4b4;
+  font-weight: 600;
+  text-decoration: none;
+
+}
+.btn-link i {
+  font-size: 15px;
+  margin-right: 5px;
+}
+.card{
+  background-color:whitesmoke;
+}
+
+/* End Faq */
+
+
+/* Begin contact */
+#contact {
+  background: #f7f7f7;
+  padding: 80px 0 40px 0;
+}
+
+#contact #google-map {
+  height: 300px;
+  margin-bottom: 20px;
+}
+#contact .h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  padding-top: 2rem;
+}
+
+
+#contact .info {
+  color: #333333;
+}
+
+#contact .info i {
+  font-size: 32px;
+  color: #2dc997;
+  float: left;
+}
+
+#contact .info p {
+  padding: 0 0 10px 50px;
+  margin-bottom: 20px;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+#contact .info .email p {
+  padding-top: 5px;
+}
+
+#contact .social-links {
+  padding-bottom: 20px;
+}
+
+#contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#contact .social-links a:hover {
+  background: #2dc997;
+  color: #fff;
+}
+
+#contact .email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#contact .email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#contact .email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#contact .email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+#contact .email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+#contact .email-form input, #contact .email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+#contact .email-form input::focus, #contact .email-form textarea::focus {
+  background-color: #2dc997;
+}
+
+#contact .email-form button[type="submit"] {
+  background: #2dc997;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+#contact .email-form button[type="submit"]:hover {
+  background: #13d4b4;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* End contact */
+
+
+
+
+/* Begin footer */
+#footer {
+  background: #171718;
+  padding: 30px 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+#footer .copyright {
+  text-align: center;
+}
+
+#footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #ccc;
+}
+ 
+/* end footer */
